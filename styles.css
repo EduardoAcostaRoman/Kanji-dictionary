@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background: #f8f8f8;
+}
+
+header,
+.main {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.main {
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.logoSection h1 {
+  float: left;
+  margin-top: 20px;
+}
+
+.logoSection {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.searchSection {
+  display: block;
+  width: 100%;
+}
+
+.infoBlock {
+  float: left;
+  width: 70%;
+  margin-right: 2%;
+}
+
+.infoSection {
+  border: 2px solid black;
+}
+
+.infoSection p {
+  padding: 3px;
+}
+
+.kanjiDrawing {
+  font-size: 150px;
+  float: left;
+  width: 28%;
+  text-align: center;
+}
+
+.kanjiDrawing p {
+  background: url(images/mesh.jpg);
+  width: 100%;
+  object-fit: cover;
+  object-position: 10px 150%;
+  float: left;
+}
+
+footer {
+  clear: both;
+  background: rgb(12, 12, 12);
+  color: #e6e6e6;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.getKanjiData {
+  border-style: none;
+  padding: 10px;
+  color: bisque;
+  background-color: rgb(39, 39, 39);
+  transition: all ease 0.3s;
+  border-radius: 2px;
+}
+
+.getKanjiData:hover {
+  color: bisque;
+  background-color: rgb(0, 0, 0);
+}
+
+.kanji {
+  padding: 8px;
+}
+
+label {
+  padding: 4px 6px 8px 6px;
+  background-color: black;
+  color: bisque;
+  border-radius: 2px;
+}

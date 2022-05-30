@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/kanji_logo_icon.ico">
+</head>
+
+<body>
+
+    <header>
+        <section class="logoSection">
+            <img class="logo" src="images/kanji logo.jpg" alt="logo">
+            <h1>KANJI DICTIONARY</h1>
+        </section>
+
+        <section class="searchSection">
+            <label for="kanji">Kanji:</label>
+            <input type="text" id="kanji" class="kanji" name="kanji_char" placeholder="Place your kanji here">
+
+            <button id="getKanjiData" class="getKanjiData">SEARCH</button>
+        </section>
+    </header>
+
+    <section class="wrapper">
+        <section class="main">
+            <div class="infoBlock">
+                <section class="infoSection" id="infoSection">
+                    <p>Character: </p>
+                    <p>Meanings: </p>
+                    <p>ON Readings: </p>
+                    <p>KUN Readings: </p>
+                    <p>JLPT: </p>
+                    <p>Stroke count: </p>
+                </section>
+            </div>
+
+            <aside class="kanjiDrawing" id="kanjiDrawing">
+                <p></p>
+            </aside>
+        </section>
+    </section>
+
+    <footer>
+        Eduardo Acosta Roman - 2022
+    </footer>
+
+
+    <script src="kanjiDictionary.js"></script>
+</body>
+
+</html>
